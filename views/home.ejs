@@ -9,6 +9,7 @@
   <div class="item">
     <h2><a href="/posts/<%= posts[i].title %>"><%= posts[i].title %></a></h2>
     <p><%= posts[i].content.substring(0,99) + "..." %></p>
+    <!--truncating first 100 javascript-->
   </div>
 
   <% } %> <%- include('./partials/footer') %>
